@@ -1,0 +1,40 @@
+---
+title: test
+author: 
+    - name: Dominik Vollbracht
+      email: d.vollbracht@rptu.de
+      affiliation: RPTU University Kaiserslauten-Landau
+    # - name: Second Person
+    #   email: test@test.de
+date: today
+format: dv_qmd-typst
+header: test
+toc: true
+number-sections: true
+bibliography: bibliography.bib
+csl: apa.csl
+---
+
+# Titel example
+
+Plain Text example.
+
+## Subtitle Example
+
+Ctiting example [@rcoreteam2024].^[Footnote Example.]
+
+{{< pagebreak >}}
+
+# Formula Example
+
+$$
+f(x) = \int_{-\infty}^\infty \hat{f}(\xi) e^{2\pi i \xi x} d\xi
+$$ {#eq-test}
+
+
+{{< pagebreak >}}
+
+# References
+
+::: {#refs}
+:::

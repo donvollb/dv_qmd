@@ -1,0 +1,33 @@
+
+
+title: dv_qmd
+author: Dominik Vollbracht
+version: 1.0.0
+quarto-required: ">=1.6.0"
+contributes:
+  formats:
+    common:
+      papersize: a4
+      mainfont: Lato
+      mainfontfallback: Helvetica
+      date-format: long
+    typst:
+      template-partials:
+        - typst-template.typ
+        - typst-show.typ
+      margin:
+        top: 3cm
+        bottom: 3cm
+        left: 2.5cm
+        right: 2.5cm
+    html:
+      toc-location: left
+    docx: default
+
+
+
+
+
+
+
+
