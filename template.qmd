@@ -21,9 +21,8 @@ Plain Text example.
 
 ## Subtitle Example
 
-Ctiting example [@rcoreteam2024].^[Footnote Example.]
-
-{{< pagebreak >}}
+Citing example [@rcoreteam2024].
+Footnote Example.^[Here is a footnote.]
 
 # Formula Example
 
