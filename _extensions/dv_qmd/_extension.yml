@@ -3,6 +3,7 @@
 title: dv_qmd
 author: Dominik Vollbracht
 version: 1.0.0
+license: MIT
 quarto-required: ">=1.6.0"
 contributes:
   formats:

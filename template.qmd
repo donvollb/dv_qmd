@@ -1,9 +1,9 @@
 ---
 title: test
 author: 
-    - name: Dominik Vollbracht
-      email: d.vollbracht@rptu.de
-      affiliation: RPTU University Kaiserslauten-Landau
+    - name: Joana Smith
+      email: example@example.com
+      affiliation: Example Institute
     # - name: Second Person
     #   email: test@test.de
 date: today
