@@ -17,7 +17,7 @@ A lightweight Quarto extension I created for personal use, providing Typst templ
 ## Prerequisites
 
 - Quarto CLI (version 1.x or higher)
-- (Optional) Lato font — install from [Google Fonts](https://fonts.google.com/specimen/Lato)
+- (Optional) Lato font — install from [Google Fonts](https://fonts.google.com/specimen/Lato). The fallback font is Helvetica (if Lato isn't installed).
 
 ## Installation
 
