@@ -8,7 +8,7 @@ author:
     #   email: test@test.de
 date: today
 format: dv_qmd-typst
-header: test
+header: test header
 toc: true
 number-sections: true
 bibliography: bibliography.bib
