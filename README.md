@@ -37,7 +37,7 @@ quarto add donvollb/dv_qmd
 
 - **Extension code**: [MIT License](LICENSE)
 - **apa.csl**: CC BY-SA 3.0 Unported  
-  - taken from the [Citations Style Language Project](https://citationstyles.org/  )
+  - taken and slightly modified from the [Citations Style Language Project](https://citationstyles.org/  )
   - [Original License](https://creativecommons.org/licenses/by-sa/3.0/legalcode)
 
 

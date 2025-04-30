@@ -1,6 +1,6 @@
 <!--
   apa.csl
-  Taken from the Citation Style Language Project: https://citationstyles.org/
+  Taken and slightly modified from the Citation Style Language Project: https://citationstyles.org/
   licensed under CC BY-SA 3.0 Unported
   (see https://creativecommons.org/licenses/by-sa/3.0/legalcode)
 -->
@@ -362,7 +362,8 @@
       <group>
         <choose>
           <if variable="issued">
-            <group delimiter=", ">
+            <!-- <group delimiter=", "> Original code--> 
+            <group delimiter="">
               <group>
                 <date variable="issued" date-parts="year" form="numeric"/>
                 <text variable="year-suffix"/>
@@ -370,7 +371,8 @@
               <choose>
                 <if type="article-magazine article-newspaper broadcast collection document event interview motion_picture pamphlet performance personal_communication post post-weblog song speech webpage" match="any">
                   <!-- Many video and audio examples in manual give full dates. Err on the side of too much information. -->
-                  <date variable="issued">
+                  <!-- <date variable="issued">  Original Code-->
+                  <date variable="issued" prefix=", ">
                     <date-part name="month"/>
                     <date-part name="day" prefix=" "/>
                   </date>
@@ -379,7 +381,8 @@
                   <!-- Capture 'speech' stored as 'paper-conference' -->
                   <choose>
                     <if variable="collection-editor compiler editor editorial-director issue page volume" match="none">
-                      <date variable="issued">
+                      <!-- <date variable="issued"> Original Code-->
+                      <date variable="issued" prefix=", ">
                         <date-part name="month"/>
                         <date-part name="day" prefix=" "/>
                       </date>
